@@ -19,3 +19,14 @@ hommage d’une communauté de personnes envers des personnes de la communauté 
 cet hommage et contraint par une production sérielle
 contrainte d’offre et de demande (bon goût de l’époque, ce qui se vendait le mieux, pierre de Loraine)
 question de la sérialisation
+
+Site :
+- contextualisation
+- attribution du rôle de maire d’une ville
+- valeur du monument à choisir 
+- monument généré avec une série d’explications + statistiques
+- choix du socle + personnalisation épitaphe + ornements 
+- commande du monument
+- visualisation dans un décors type
+- impression 3d du monument ?
+- statistiques sur le monument choisi (cartographie, ville, historique), contextualisaton + enjeux du catalogue, possibilité de feuilleter un catalogue (base de donnée)
