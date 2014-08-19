@@ -1,0 +1,525 @@
+body {
+    background-image: url(/poiluvictorieux//imgindex/backindex.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+
+/*MENU*/
+
+
+.menu {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white;
+    align-content: center;
+    position:fixed;
+    top: 7px;
+    left: 30px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -o-box;
+    margin-top: 20px;
+    z-index: 10;
+}
+
+#ouvrir {
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.button { 
+    z-index: 42; 
+    border-right: 1px solid rgba(203, 203, 203, 0.48);
+    width:  20px; 
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #EEEEEE;
+    position: fixed;;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+    line-height: 48px; 
+    -webkit-transition: all 0.2s ease-out; 
+    -o-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;  
+    
+}
+
+.button img{
+    margin-left: -103px;
+    margin-top: 30px;
+    -webkit-transition: all 0.2s ease-out; 
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;  
+/* SAFARI TRES VIELLE VERSION < 2.1 */
+    -khtml-opacity:0; 
+/* FIREFOX TRES VIELLE VERSION <= 0.9*/
+    -moz-opacity : 0; 
+/* IE 8 ET COMPRIS PAR IE 10*/
+    -ms-filter: "alpha(opacity=0)"; 
+/* IE > 4 et < 8 ET COMPRIS PAR IE 10*/
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0); 
+/* IE 4 */
+    filter : alpha(opacity=0); 
+/* AUTRE */
+    opacity : 0;
+}
+
+.button:hover img{
+    margin-left: 56px;
+    /* SAFARI TRES VIELLE VERSION < 2.1 */
+    -khtml-opacity:0.5; 
+/* FIREFOX TRES VIELLE VERSION <= 0.9*/
+    -moz-opacity : 0.5; 
+/* IE 8 ET COMPRIS PAR IE 10*/
+    -ms-filter: "alpha(opacity=50)"; 
+/* IE > 4 et < 8 ET COMPRIS PAR IE 10*/
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50); 
+/* IE 4 */
+    filter : alpha(opacity=50); 
+/* AUTRE */
+    opacity: 0.5;
+}
+
+.button h1 {
+    font-family: 'Ubuntu', sans-serif;
+    position: fixed;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: none;
+    visibility: hidden;
+    margin-top: 20px;
+    margin-left: -103px;
+    text-align: center;
+    line-height: 14px;
+    -webkit-transition: all 0.2s ease-out; 
+    -o-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;  
+}
+
+ .button:hover h1 {
+    margin-left: 43px;
+    color: rgba(31, 30, 30, 0.61);
+     visibility: visible;
+     
+ }
+
+.button ul {
+    position: fixed;
+    margin-top: 100px;
+    margin-left: -170px;
+    -webkit-transition: all 0.2s ease-out; 
+    -o-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;  
+    visibility: hidden
+}
+
+.button:hover ul{
+    margin-left: 0px;
+    margin-right: -20px;
+    visibility: visible;
+}
+
+.button li {
+    list-style: none;
+    left: 0px;
+    margin-left: -40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ffffff;
+    width: 170px;
+
+}
+
+.button p {
+    margin:-8px 0px -8px 12px;
+}
+
+ .button:hover { 
+     width: 170px;
+     height: 100%;
+     top: 0px;
+     left: 0px;
+     background-position: 12px;
+     background-image: none;
+  }
+
+.button a {
+    text-decoration: none;
+    border:none;
+    color: rgba(31, 30, 30, 0.61);
+    background: none;
+}
+
+ .button:hover a {
+    text-decoration: none;
+    border:none;
+    color: rgba(31, 30, 30, 0.61);
+ }
+
+.button a:hover {
+    color: #000
+}
+  
+.CGU {
+    color: rgba(31, 30, 30, 0.61);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgba(31, 30, 30, 0.61);
+    border-top:1px solid rgba(31, 30, 30, 0.32);
+    width:170px;
+}
+
+.CGU a {
+    margin-left: 20px;
+}
+
+.CGU a:hover {
+    color: black;
+}
+
+.button div {
+    position: fixed;
+    bottom: 0px;
+    visibility: hidden;
+    margin-left: -170px;
+    -webkit-transition: all 0.2s ease-out; 
+    -o-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;  
+}
+
+.button:hover div {
+    visibility: visible;
+    margin-left: 0px;
+    background-color: #EEEEEE;
+}
+
+/*INDEX*/
+
+
+.introduction{
+    background-color: rgba(255, 255, 255, 0.83);
+    height: 220px;
+    width: 470px;
+    color: #4D4D4D;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px 30px 0px 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 15%;
+}
+
+.introduction p {
+    font-weight: 200;
+    line-height: 19px;
+    font-size: 14px;
+}
+
+.introduction h3 {
+    font-weight:500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.introduction h2 {
+    line-height: 12px;
+    font-weight: 500;
+}
+
+.go {
+    -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+    background: -moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+    background-color: #ededed;
+    -webkit-border-top-left-radius: 55px;
+    -moz-border-radius-topleft: 55px;
+    border-top-left-radius: 52px;
+    -webkit-border-top-right-radius: 55px;
+    -moz-border-radius-topright: 55px;
+    border-top-right-radius: 55px;
+    -webkit-border-bottom-right-radius: 55px;
+    -moz-border-radius-bottomright: 55px;
+    border-bottom-right-radius: 55px;
+    -webkit-border-bottom-left-radius: 55px;
+    -moz-border-radius-bottomleft: 55px;
+    border-bottom-left-radius: 55px;
+    text-indent: 0;
+    border: 5px solid #FB9283;
+    display: inline-block;
+    color: #777777;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    height: 100px;
+    line-height: 100px;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    position: fixed;
+    left: 45.5%;
+    margin-top: 30px;
+/* SAFARI TRES VIELLE VERSION < 2.1 */
+    -khtml-opacity:0.8; 
+/* FIREFOX TRES VIELLE VERSION <= 0.9*/
+    -moz-opacity : 0.8; 
+/* IE 8 ET COMPRIS PAR IE 10*/
+    -ms-filter: "alpha(opacity=80)"; 
+/* IE > 4 et < 8 ET COMPRIS PAR IE 10*/
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80); 
+/* IE 4 */
+    filter : alpha(opacity=80); 
+/* AUTRE */
+    opacity : 0.8;
+    -webkit-transition: all 0.5s ease-out; 
+    -o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;  
+}
+.go:hover {
+	opacity: 1;
+}
+.go:active {
+	position:relative;
+	top:1px;
+}    
+
+
+
+/*SELECTION 1*/
+    
+.back {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin-top: -8px;
+    background-color: rgba(229, 229, 247, 0.35);
+    z-index: 1;
+}
+
+.container h1 {
+    position: fixed;
+    z-index: 9;
+    font-family: 'Ubuntu', sans-serif;
+    color: #777777;
+    font-weight: 600;
+    left: 124px;
+    top: 10px;
+    font-size: 1.5em;
+}
+
+.choix {
+    font-family: 'Ubuntu', sans-serif;
+    color: #FA7A68;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 600;
+    position: absolute;
+}
+
+.selecteur {
+    background-color: white;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 80px;
+    left: 40px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;   
+    overflow: hidden;
+}
+
+.droite {
+    display: -webkit-box;
+    display: -o-box;
+    display: -moz-box;
+    display: box;
+    position: inherit;
+    left: 20%;
+    width: 50%;
+}
+
+
+.rectangle{
+	width: 49%;
+    margin-left: 120px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 650px;
+    background-position: 95% -6%;
+}
+
+#allegorie {
+    background-image: url(/poiluvictorieux/statues/stat3.png);
+}
+
+#endeuilli {
+    background-image: url(/poiluvictorieux/statues/stat5.png);
+}
+
+#mourrant {
+    background-image: url(/poiluvictorieux/statues/stat8.png);
+    background-size: 600px;
+}
+
+.gauche {
+    display: -webkit-box;
+    display: -o-box;
+    display: -moz-box;
+    display: box;
+    position: inherit;
+    left: 20%;
+}
+
+.rectangle2{
+	width: 49%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    bottom: 10px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: 0% -5%;
+    border-right: 10px solid white;
+}
+
+#millitaire {
+    background-image: url(/poiluvictorieux/statues/stat4.png);
+}
+
+#victorieux {
+    background-image: url(/poiluvictorieux/statues/stat6.png);
+    background-size: 650px;
+    background-position: 0% 17%;
+}
+
+#guerrier {
+    background-image: url(/poiluvictorieux/statues/stat7.png);
+    background-size: 600px;
+    background-position: 7% -5%;
+}
+
+
+.covopa {
+    background-color: #959aa8;
+    width: 49%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    bottom: 10px;
+/* SAFARI TRES VIELLE VERSION < 2.1 */
+    -khtml-opacity:0.5; 
+/* FIREFOX TRES VIELLE VERSION <= 0.9*/
+    -moz-opacity : 0.5; 
+/* IE 8 ET COMPRIS PAR IE 10*/
+    -ms-filter: "alpha(opacity=50)"; 
+/* IE > 4 et < 8 ET COMPRIS PAR IE 10*/
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50); 
+/* IE 4 */
+    filter : alpha(opacity=50); 
+/* AUTRE */
+    opacity : 0.5;
+    -webkit-transition: all 0.5s ease-out; 
+    -o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;  
+}
+
+.covopa:hover {
+    background-color: #FA7A68;
+}
+
+.covopa2 {
+    width: 49%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    background-color: #959aa8;
+/* SAFARI TRES VIELLE VERSION < 2.1 */
+    -khtml-opacity:0.5; 
+/* FIREFOX TRES VIELLE VERSION <= 0.9*/
+    -moz-opacity : 0.5; 
+/* IE 8 ET COMPRIS PAR IE 10*/
+    -ms-filter: "alpha(opacity=50)"; 
+/* IE > 4 et < 8 ET COMPRIS PAR IE 10*/
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50); 
+/* IE 4 */
+    filter : alpha(opacity=50); 
+/* AUTRE */
+    opacity : 0.5;
+    -webkit-transition: all 0.5s ease-out; 
+    -o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;  
+}
+
+.covopa2:hover {
+    background-color: #FA7A68;
+    
+}
+
+.gauche:hover {
+    background-color: #FA7A68;
+}
+
+.image {
+    width: 100%;
+}
+
+
+.indicateur {
+    position: fixed;
+    right: 35px;
+    top: 23px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -o-box;
+    z-index: 10;
+}
+
+.indicateur a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    padding: 5px 8px 5px 8px;
+    margin-left: 0px;
+    border-right: 1px solid #88888;
+    text-decoration: none;
+    color:rgba(119, 119, 119, 0.65);
+    background-color: white;
+}
+
+.indicateur a:hover {
+    background-color: rgba(255, 184, 175, 0.74);
+    color: white;
+}
+
+a#actif {
+    background-color: #FA7A68; 
+    color: white;
+}
