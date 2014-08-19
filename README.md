@@ -30,3 +30,6 @@ Site :
 - visualisation dans un décors type
 - impression 3d du monument ?
 - statistiques sur le monument choisi (cartographie, ville, historique), contextualisaton + enjeux du catalogue, possibilité de feuilleter un catalogue (base de donnée)
+
+Technique :
+- https://github.com/carhartl/jquery-cookie
