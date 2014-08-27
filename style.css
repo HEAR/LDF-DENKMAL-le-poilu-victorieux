@@ -298,12 +298,6 @@ body {
 .go:hover {
 	opacity: 1;
 }
-.go:active {
-	position:relative;
-	top:1px;
-}    
-
-
 
 /*------------------------------------------------> SELECTION 1 (selection)*/
     
@@ -413,6 +407,38 @@ body {
     background-size: 700px;
     background-position: 0% -5%;
     border-right: 10px solid white;
+}
+
+#mili {
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    left: 50%;
+    margin-left: -205px;
+}
+
+#aleg{
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    left: 50%;
+    margin-left: -150px;
+}
+
+#guer {
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    left: 50%;
+    margin-left: -155px;
+}
+
+#ende {
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    left: 50%;
+    margin-left: -130px;
 }
 
 #millitaire {
@@ -536,6 +562,31 @@ body {
 a#actif {
     background-color: #FA7A68; 
     color: white;
+}
+
+.oubien {
+    background-color: white;
+    z-index: 29;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-radius: 60px;
+    top: 50%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -58px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+p#oubientext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -22px;
+    margin-top: -17px;
+    color: #7b7b7b;
 }
 
 /*------------------------------------------------> SELECTION MONUMENT 2 (choixstat)*/
@@ -809,6 +860,7 @@ a#actif {
 
 #victoireailee2 {
     background-image: url(/poiluvictorieux/statues/stat-choix2.png);
+    background-position: 50% 62%;
 }
 
 #victoireaudrapeau {
@@ -844,3 +896,723 @@ a#actif {
 /*------------------------------------------------> Presentation du monument */
 
 
+.textpresa {
+    position: absolute;
+    left: 15px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 440px;
+    height: 100%;
+    background-color: white;
+    z-index: 30;
+}
+
+h1#titrepresa {
+    font-family: 'Ubuntu', sans-serif;
+    color: #FA7A68;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 500;
+    position: relative;
+    z-index: 5;
+    width: 600px;
+    left: 10px;
+    top: -5px;
+    text-shadow: 0px 0px 30px #fff;
+}
+
+h3#soustitrepresa {
+    font-family: 'Ubuntu', sans-serif;
+    color: #FA7A68;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    z-index: 5;
+    width: 600px;
+    left: 10px;
+    padding-top: 30px;
+    text-shadow: 0px 0px 30px #fff;
+}
+
+
+p.labeurpresa {
+    z-index: 5;
+    position: relative;
+    left: 10px;
+    width: 400px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    padding-top: 0px;
+    line-height: 18px;
+    color: #4D4D4D;
+    text-shadow: 0px 0px 30px #fff;
+}
+
+.labeurpresa a {
+    text-decoration: none;
+    color: #959aa8;
+    padding-bottom: 2px;
+    text-shadow: 0px 0px 30px #fff;
+}
+
+.labeurpresa a:hover {
+    border-bottom:2px solid #959aa8;
+}
+
+p.labeurpresa2 {
+    z-index: 5;
+    position: relative;
+    left: 10px;
+    width: 250px; 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    padding-top: 9px;
+    line-height: 18px;
+    color: #4D4D4D;
+    text-shadow: 0px 0px 30px #fff;
+}
+
+p.labeurpresa2 span{
+    margin-bottom: -10px;
+    display: block;
+    width: 162px;
+    font-weight: 600;
+    text-shadow: 0px 0px 30px #fff;
+ 
+}
+
+.images {
+    z-index: 2;
+    position: fixed;
+    bottom: 20px;
+    top: 20px;
+    left: 45px;
+    right: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.images2 {
+    z-index: 2;
+    position: fixed;
+    bottom: 40px;
+    top: 40px;
+    left: 65px;
+    right: 40px;
+    overflow: hidden;
+}
+
+.images3 {
+    z-index: 2;
+    position: fixed;
+    bottom: 40px;
+    top: 40px;
+    left: 500px;
+    right: 40px;
+    overflow: hidden;
+}
+
+img#vict-ailee-epee1 {
+    width: 740px;
+    position: absolute;
+    margin-top: -370px;
+    right: 190px;
+/* SAFARI TRES VIELLE VERSION < 2.1 */
+    -khtml-opacity:0.2; 
+/* FIREFOX TRES VIELLE VERSION <= 0.9*/
+    -moz-opacity : 0.2; 
+/* IE 8 ET COMPRIS PAR IE 10*/
+    -ms-filter: "alpha(opacity=20)"; 
+/* IE > 4 et < 8 ET COMPRIS PAR IE 10*/
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=20); 
+/* IE 4 */
+    filter : alpha(opacity=20); 
+/* AUTRE */
+    opacity : 0.2;
+    z-index: 31;
+}
+
+img#vict-ailee-epee2 {
+    width: 830px;
+    position: absolute;
+    margin-top: -530px;
+    right: -130px;
+}
+
+img#vict-ailee-laurier1 {
+    position: absolute;
+    margin-top: -10px;
+    right: -110px;
+    -khtml-opacity: 0.6;
+    -moz-opacity: 0.6;
+    -ms-filter: "alpha(opacity=60)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+
+img#vict-drapeau1 {
+    width: 680px;
+    position: absolute;
+    margin-top: -240px;
+    right: 120px;
+    -khtml-opacity: 0.2;
+    -moz-opacity: 0.2;
+    -ms-filter: "alpha(opacity=20)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=20);
+    filter: alpha(opacity=20);
+    opacity: 0.2;
+}
+
+img#vict-drapeau2 {
+    width: 400px;
+    position: absolute;
+    margin-top: 0px;
+    right: -50px;
+}
+
+
+img#vict-laurier1-1 {
+    width: 740px;
+    position: absolute;
+    margin-top: -130px;
+    right: 20px;
+    -khtml-opacity: 0.6;
+    -moz-opacity: 0.6;
+    -ms-filter: "alpha(opacity=60)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+
+img#vict-laurier1-2 {
+    width: 740px;
+    position: absolute;
+    margin-top: -210px;
+    right: -110px;
+}
+
+img#vict-laurier2-1 {
+    width: 750px;
+    position: absolute;
+    /* top: 50%; */
+    margin-top: -180px;
+    margin-left: 260px;
+    -khtml-opacity: 0.2;
+    -moz-opacity: 0.2;
+    -ms-filter: "alpha(opacity=20)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=20);
+    filter: alpha(opacity=20);
+    opacity: 0.2;
+}
+
+img#vict-laurier2-2 {
+    width: 570px;
+    position: absolute;
+    margin-top: -220px;
+    right: -50px;
+}
+
+img#stat-republique {
+    width: 420px;
+    position: absolute;
+    margin-top: -10px;
+    right: 160px;
+    -khtml-opacity: 0.6;
+    -moz-opacity: 0.6;
+    -ms-filter: "alpha(opacity=60)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+
+img#vict-laurier3 {
+    width: 1080px;
+    position: absolute;
+    margin-top: -110px;
+    right: -170px;
+    -khtml-opacity: 0.6;
+    -moz-opacity: 0.6;
+    -ms-filter: "alpha(opacity=60)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+
+img#fra-deuil {
+    width: 820px;
+    position: absolute;
+    margin-top: -110px;
+    right: -40px;
+}
+.boutons {
+    position: fixed;
+    z-index: 20;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    bottom: 30px;
+    text-align: center;
+    left: 50%;
+    margin-left: -172px;
+    width: 3434x;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+
+.boutons a{
+    text-decoration: none;
+}
+
+
+div#bouton1 {
+    color: #4D4D4D;
+    background-color: #d8d8d8;
+    padding: 7px 10px 6px 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-transition: all 0.5s ease-out; 
+    -o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; 
+    border: 1px solid #cbcbcb;
+}
+
+div#bouton1:hover{
+    background-color: #b7b7b7;
+}
+
+div#bouton2 {
+    color:white;
+    background-color: #FA7A68;
+    padding: 6px 10px 6px 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-left: 33px;
+    -webkit-transition: all 0.5s ease-out; 
+    -o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; 
+    border: 1px solid #fa6a56;
+}
+
+div#bouton2:hover{
+    background-color: rgb(247, 82, 60);
+    color:white;
+}
+
+/*------------------------------------------------> Socles */
+
+.boutons-socle {
+    position: fixed;
+    z-index: 20;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    bottom: 30px;
+    text-align: center;
+    left: 50%;
+    margin-left: -99px;
+    width: 3434x;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+
+.boutons-socle a{
+    text-decoration: none;
+}
+             
+#slideshow {
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 65px;
+    top: 80px;
+    right: 40px;
+    bottom: 20px;
+    z-index: 9;
+    overflow: hidden;
+}
+#sContent {
+    position: absolute;
+    display: flex;
+    width: 1140px;
+    top: 50%;
+    margin-top: -120px;           
+    padding: 0;
+    z-index: 10;
+    margin-left: 50%;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+#sContent img {
+    width: 180px;
+}
+
+#sContent li {
+    display: inline-block;
+    margin: 0% 200px 0% 0%;
+}
+
+#slideshow .next, #slideshow .prev {
+    position: absolute;
+    top:50%;
+    z-index: 20;
+}
+#slideshow .prev { 
+    left: 50%;
+    margin-left: -250px; 
+}
+#slideshow .next { 
+    right: 50%;
+    margin-right: -250px; 
+}
+
+/* initialisation */
+#slideshow .next, #slideshow .prev { display: none; }
+#slideshow .next1 { display: block; }
+
+/* Vers 1ère étape */
+#s1:target #sContent {
+    left: -90px;
+}
+#s1:target .next, #s1:target .prev { display: none; }
+#s1:target .next1 { display: block; }
+#s1:target .bouton-next1 { display: block; }
+#s1:target .bouton-next2 { display: none; }
+#s1:target .bouton-next3 { display: none; }
+#s1:target .text-next1 { display: block; }
+#s1:target .text-next2 { display: none; }
+#s1:target .text-next3 { display: none; }
+#s1:target .socle1 {
+    -khtml-opacity:1; 
+    -moz-opacity : 1; 
+    -ms-filter: "alpha(opacity=60)"; 
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100); 
+    filter : alpha(opacity=100); 
+    opacity : 1;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+#s1:target .socle2 {
+    -khtml-opacity:0.4; 
+    -moz-opacity : 0.4; 
+    -ms-filter: "alpha(opacity=40)"; 
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40); 
+    filter : alpha(opacity=40); 
+    opacity : 0.4;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+#s1:target .socle3 { 
+    -khtml-opacity:0.4; 
+    -moz-opacity : 0.4; 
+    -ms-filter: "alpha(opacity=40)"; 
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40); 
+    filter : alpha(opacity=40); 
+    opacity : 0.4;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+/* Vers 2ème étape */
+#s2:target #sContent { left: -470px; } /*ou -100%*/
+#s2:target .next, #s2:target .prev { display: none; }
+#s2:target .next2, #s2:target .prev2 { display: block; }
+#s2:target .bouton-next1 { display: none; }
+#s2:target .bouton-next2 { display: block; }
+#s2:target .bouton-next3 { display: none; }
+#s2:target .text-next1 { display: none; }
+#s2:target .text-next2 { display: block; }
+#s2:target .text-next3 { display: none; }
+#s2:target .socle1 {
+    -khtml-opacity:0.4; 
+    -moz-opacity : 0.4; 
+    -ms-filter: "alpha(opacity=40)"; 
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40); 
+    filter : alpha(opacity=40); 
+    opacity : 0.4;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+#s2:target .socle2 {
+    -khtml-opacity:1; 
+    -moz-opacity : 1; 
+    -ms-filter: "alpha(opacity=60)"; 
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100); 
+    filter : alpha(opacity=100); 
+    opacity : 1;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+#s2:target .socle3 { 
+    -khtml-opacity:0.4; 
+    -moz-opacity : 0.4; 
+    -ms-filter: "alpha(opacity=40)"; 
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40); 
+    filter : alpha(opacity=40); 
+    opacity : 0.4;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+/* Vers 3ème étape */
+#s3:target #sContent { left: -850px; } /*ou -200%*/
+#s3:target .next, #s3:target .prev { display: none; }
+#s3:target .prev3 { display: block; }
+#s3:target .bouton-next1 { display: none; }
+#s3:target .bouton-next2 { display: none; }
+#s3:target .bouton-next3 { display: block; }
+#s3:target .text-next1 { display: none; }
+#s3:target .text-next2 { display: none; }
+#s3:target .text-next3 { display: block; }
+#s3:target .socle1 {
+    -khtml-opacity:0.4; 
+    -moz-opacity : 0.4; 
+    -ms-filter: "alpha(opacity=40)"; 
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40); 
+    filter : alpha(opacity=40); 
+    opacity : 0.4;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+#s3:target .socle2 {
+    -khtml-opacity:0.4; 
+    -moz-opacity : 0.4; 
+    -ms-filter: "alpha(opacity=40)"; 
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40); 
+    filter : alpha(opacity=40); 
+    opacity : 0.4;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+#s3:target .socle3 { 
+    -khtml-opacity:1; 
+    -moz-opacity : 1; 
+    -ms-filter: "alpha(opacity=60)"; 
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100); 
+    filter : alpha(opacity=100); 
+    opacity : 1;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+#chevron-socle {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    -webkit-transition: all 0.5s ease-out; 
+    -o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; 
+    background-image: url(/poiluvictorieux/imgindex/chev1.png);
+    background-repeat: no-repeat;
+    background-position: 30px 27px;
+    background-size: 30px;
+}
+
+
+#chevron-socle:hover {
+    background-image: url(/poiluvictorieux/imgindex/chev1red.png);
+}
+
+#chevron2-socle {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    -webkit-transition: all 0.5s ease-out; 
+    -o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; 
+    background-image: url(/poiluvictorieux/imgindex/chev2.png);
+    background-repeat: no-repeat;
+    background-position: 38px 27px;
+    background-size: 30px;
+}
+
+#chevron2-socle:hover {
+    background-image: url(/poiluvictorieux/imgindex/chev2red.png);
+}
+
+.contentbox3 {
+    background-color: white;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 80px;
+    left: 45px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;   
+    overflow: hidden;
+}
+
+.statue-socle {
+    position: absolute;
+    z-index: 11;
+    height: 230px;
+    top: 50%;
+    margin-top: -310px;
+    left: 50%;
+    margin-left: -72px;
+    background-color: #ffffff;
+}
+
+.texte-socle {
+    font-family: 'Ubuntu', sans-serif;
+    width: 300px;
+    position: absolute;
+    right: 140px;
+    bottom: 450px;
+}
+
+.texte-socle h2 {
+    font-size: 20px;
+    color: #FA7A68;
+    font-weight: 500;
+}
+
+.texte-socle p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #4D4D4D;
+}
+
+
+
+/*------------------------------------------------> Socles */
+
+.eptiaphe {
+    position: absolute;
+    width: 700px;
+    height: 350px;
+    margin-top: -175px;
+    margin-left: -350px;
+    background-color: #EEEEEE;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+}
+
+.text-entree TEXTAREA {
+    position: absolute;
+    width: 620px;
+    height: 250px;
+    background-color: #EEEEEE;
+    border: 2px solid #65d1ff;
+    resize: none;
+    margin-top: -125px;
+    margin-left: -312px;
+    top: 50%;
+    left: 50%;  
+    font-family: "times" serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: #bcbcbc;
+    text-overflow: clip;
+    overflow: hidden;
+}
+
+.text-entree TEXTAREA:focus {
+    color: #6f6f6f; 
+    box-shadow: 0 0 #ffffff;
+}
+
+.modification {
+    position: absolute;
+    bottom: -48px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    right: 92px;
+    width: 200px;
+    color: #4D4D4D;
+    font-size: 14px;
+}
+
+#caracteres {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+#bouton-epitaphe {
+    width: 92px;
+    font-family: 'ubuntu';
+    text-transform: uppercase;
+    color:white;
+    background-color: #FA7A68;
+    padding: 6px 10px 6px 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-left: 33px;
+    -webkit-transition: all 0.5s ease-out; 
+    -o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; 
+    border: 1px solid #fa6a56;
+    text-decoration: none;
+    position: absolute;
+    bottom: -55px;
+    right: 10px;
+}
+
+.eptiaphe a {
+    text-decoration: none;
+}
+
+#bouton-epitaphe:hover{
+    background-color: rgb(247, 82, 60);
+    color:white;
+}
+
+.statuemini {
+    position: absolute;
+    z-index: 9;
+    width: 10px;
+    top: 50%;
+    left: 50%;
+    margin-left: -500px;
+    margin-top: -160px;
+}
+
+.statuemini img {
+    width: 80px;
+}
+
+img#statmin {
+    width: 55px;
+}
+
+img#soclemin {
+    margin-top: -20px;
+    margin-left: -7px;
+}
