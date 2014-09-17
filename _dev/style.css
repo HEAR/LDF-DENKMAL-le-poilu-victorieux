@@ -1,0 +1,7 @@
+.choix li{
+    cursor: pointer;
+}
+
+.selected{
+    background: #DDD;
+}
