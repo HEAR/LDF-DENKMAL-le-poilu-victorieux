@@ -34,8 +34,8 @@ $(document).ready(function(){
     $('#recap #id_statue span').text(dataUser.id_statue);
     $('#recap #id_socle span').text(dataUser.id_socle);
     $('#recap #id_ornement span').text(dataUser.id_ornement);
-    $('#recap #epitaphe span').text(dataUser.epitaphe);
-    $('#recap #noms span').text(dataUser.noms);
+    $('#recap #epitaphe pre').text(dataUser.epitaphe);
+    $('#recap #noms pre').text(dataUser.noms);
 
 
     $lineData = {};
@@ -69,6 +69,9 @@ $(document).ready(function(){
     $('#clear-cookie').click(function(e){
         $.removeCookie('sauvegarde');
         $('#valeur').text("nettoyage des cookies");
+        if(confirm('recommencer depuis le début ?')){
+            window.location.replace("index.html");
+        }
     });
 });
 
@@ -124,24 +127,26 @@ function checkDataUser(){
 	refreshData();
 
 	// on commence à l'envers
-	if(dataUser.noms !== false && confirm('vous avez déjà rempli toutes les étapes')){
-    	window.location.replace("fin.html");
-    }
-
-    if(dataUser.epitaphe !== false && confirm('il vous reste à choisir les noms')){
-    	window.location.replace("etape5.html");
-    }
-
-    if(dataUser.id_ornement !== false && confirm('il vous reste à choisir l\'épitaphe')){
-    	window.location.replace("etape4.html");
-    }
-
-    if(dataUser.id_socle !== false && confirm('il vous reste à choisir l\'ornement')){
-    	window.location.replace("etape3.html");
-    }
-
-    if(dataUser.id_statue !== false && confirm('il vous reste à choisir les socle')){
-    	window.location.replace("etape2.html");
+	if(dataUser.noms !== false){
+        if(confirm('vous avez déjà rempli toutes les étapes')){
+    	   window.location.replace("fin.html");
+        }
+    }else if(dataUser.epitaphe !== false){
+        if(confirm('il vous reste à choisir les noms')){
+    	   window.location.replace("etape5.html");
+        }
+    }else if(dataUser.id_ornement !== false){
+        if(confirm('il vous reste à choisir l\'épitaphe')){
+    	   window.location.replace("etape4.html");
+        }
+    }else if(dataUser.id_socle !== false){
+        if(confirm('il vous reste à choisir l\'ornement')){
+            window.location.replace("etape3.html");
+        }
+    }else if(dataUser.id_statue !== false){
+        if(confirm('il vous reste à choisir les socle')){
+            window.location.replace("etape2.html");
+        }
     }
 }
 
@@ -162,11 +167,11 @@ function refreshData(){
         $.cookie('sauvegarde', JSON.stringify(sauvegarde) );
     }
 
-    if (dataUser.id_statue !== false){  $("#id_statue li").eq(dataUser.id_statue).addClass('selected'); }
-    if (dataUser.id_socle !== false){  $("#id_socle li").eq(dataUser.id_socle).addClass('selected'); }
-    if (dataUser.id_ornement !== false){  $("#id_ornement li").eq(dataUser.id_ornement).addClass('selected'); }
-    $("#epitaphe").val(dataUser.epitaphe);
-    $("#noms").val(dataUser.noms);
+    if (dataUser.id_statue   !== false){ $("#id_statue li").eq(dataUser.id_statue).addClass('selected'); }
+    if (dataUser.id_socle    !== false){ $("#id_socle li").eq(dataUser.id_socle).addClass('selected'); }
+    if (dataUser.id_ornement !== false){ $("#id_ornement li").eq(dataUser.id_ornement).addClass('selected'); }
+    if (dataUser.epitaphe    !== false){ $("#epitaphe").val(dataUser.epitaphe); }
+    if (dataUser.noms        !== false){ $("#noms").val(dataUser.noms); }
 
     console.log('dataUser');
     console.log(dataUser);
