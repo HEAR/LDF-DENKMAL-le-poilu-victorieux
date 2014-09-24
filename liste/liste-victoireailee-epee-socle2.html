@@ -13,7 +13,7 @@
     <!--Fonts-->
       <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
     <!--Font Awesome-->
-      <link rel="stylesheet" href="/poiluvictorieux/fonts/font-awesome/css/font-awesome.min.css">
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
       
       </head>
     <body>
@@ -51,17 +51,51 @@
         
         <div class="indicateur">
 
-            <a id="inactif" href="/">1</a>
-            <a id="actif" href="#">2</a>
-            <a id="inactif" href="#">3</a>
-            <a id="inactif" href="#">4</a>
-            <a id="inactif" href="#">5</a>
+            <a id="inactif">1</a>
+            <a id="inactif">2</a>
+            <a id="actif">3</a>
+            <a id="inactif">4</a>
+            <a id="inactif">5</a>
         </div>
-        <h1>Choisissez le socle de votre monument :</h1>        
-        <div class="contentbox3"></div>    
-                
-                
-                
+        <h1 id="bigtitre">Choix de l'&eacute;pitaphe <span style="font-weight:100;">Quel sont les noms de vos h&eacute;ros ?</span></h1>        
+        <div class="contentbox3">  
+        <div class="texte-epitaphe">
             </div>
-</body>
-</html>
+       <div class="liste">
+           <h5>&Agrave; nos morts</h5>
+             <div class="text-entree-liste">
+                <form>
+<TEXTAREA required onkeyup="reste(this.value);" maxlength="250" class="text-entree" name="champ" rows=5 cols=40>
+   Philippe Morris, Chuck Candel, Antoine H&eacute;l&egrave;ne, Lucas Mourra, Octave Desch&ecirc;nes, Henri Lucien, Roger Ruais, Burnel Fortier, Arthur de la Veigne, Denis Beaujoli, Simon Sidney, Avril Deryes.</TEXTAREA>
+
+                 </form>
+           </div>  
+           
+                   <div class="modification">
+            
+            <span id="caracteres">250</span> caractères restants
+            <script type="text/javascript">
+                function reste(texte)
+                {
+                    var restants=250-texte.length;
+                    document.getElementById('caracteres').innerHTML=restants;
+                }
+            </script>
+                </div>
+           
+           <a href="/poiluvictorieux/ornements/ornements_vict_ailee_2_socle_2.html"><div id="bouton-epitaphe"><i class="fa fa-check"></i>&nbsp;&nbsp;Valider </div></a>
+           
+                </div>
+                
+                        <div class="statuemini">
+            <img id="statmin" src="/poiluvictorieux/statues/statue2.png" alt="Victoire ailée (2) (Épée)">
+            <img style="display:none;" accesskey=""id="soclemin" src="/poiluvictorieux/socles/imgs-socle/socle3.png">
+            <img id="soclemin" src="/poiluvictorieux/socles/imgs-socle/socle4.png">
+            <img style="display:none;" id="soclemin" src="/poiluvictorieux/socles/imgs-socle/socle5.png">
+                </div>
+</div>  
+                
+                
+    </div>
+        </body>
+    </html>
