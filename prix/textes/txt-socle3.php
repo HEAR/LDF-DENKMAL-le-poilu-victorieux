@@ -1,0 +1,2 @@
+<h3>Socle</h3><span id="ligne2"></span><span>6400F</span>
+<p>La stèle dérive directement de la pierre tombale, elle permet d'ancrer un lieu de mémoire, un endroit où reposent ceux qui ne sont jamais revenus.</p>

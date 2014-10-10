@@ -1,0 +1,2 @@
+<h3>Devant la Mairie</h3>
+<p>Vous avez choisi de placer votre monument devant la mairie pour marquer l'hommage de la partie &agrave; ses enfants, pour qu'elle se souviennent de leur sacrifice, de sa libert&eacute; qu'elle leur doit. Vous leur offrez ainsi le statut de h&eacute;ros.</p>

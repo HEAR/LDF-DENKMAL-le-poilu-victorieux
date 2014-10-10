@@ -1,0 +1,2 @@
+<h3>&eacute;pitaphe & plaque</h3><span id="ligne3"></span><span>1300F</span>
+            <p>Dernier message laissé aux morts, elles donnaient souvent le ton d’un monument. Du plus controversé "maudite soit la guerre", au plus classique "Morts pour la France".</p>

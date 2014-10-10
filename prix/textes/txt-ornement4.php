@@ -1,0 +1,2 @@
+<h3>Ornement</h3><span id="ligne4"></span><span>2100F</span>
+<p>Vous avez choisi la couronne triophale (ou couronne de laurier) pour orner votre monument. Elle dispense la gloire aux soldats tomb&eacute;s &agrave; la guerre.</p>

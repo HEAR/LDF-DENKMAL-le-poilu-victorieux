@@ -1,0 +1,2 @@
+<h3>Place publique</h3>
+<p>Vous avez choisi de placer votre monument en plein milieu de la place publique. Ainsi, chaqu'un saura quel fut le sacrfice des "enfants de la partie". Vous marquez le fait que votre ville ne l'oubliera jamais, elle aussi.</p>

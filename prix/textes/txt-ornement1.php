@@ -1,0 +1,2 @@
+<h3>Ornement</h3><span id="ligne4"></span><span>2100F</span>
+            <p>La croix de guerre représente l’exploit, l’héroïsme du soldat. Vous attribuez ainsi, figurativement, cette décoration à tout les soldats mort sur le front.</p>

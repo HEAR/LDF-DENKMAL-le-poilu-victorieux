@@ -1,0 +1,2 @@
+<h3>église</h3>
+<p>Vous avez choisi de placer votre monument devant l'&eacute;glise afin qu'il soit une ode fun&eacute;raire &agrave; ceux qui ne sont jamais revenu. Ralliant ainsi la symbolique chr&eacute;tienne &agrave; l'hommage de la patrie. D'ailleurs les épitaphes le montrent bien. Elles se réfèrent aux morts, qu'ils soient glorieux ou parti sur le champ d'honneur. La présence de croix et d'urnes funéraires renforce ce caractère.</p>

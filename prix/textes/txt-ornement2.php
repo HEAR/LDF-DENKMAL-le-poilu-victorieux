@@ -1,0 +1,2 @@
+<h3>Ornement</h3><span id="ligne4"></span><span>2100F</span>
+<p>En offrant des fleurs de deuil, vous souhaitez exprimer des émotions de l’ordre de l'ineffable envers les d&eacute;funts. C'est une mani&egrave;re de leur rendre un dernier hommage, aussi personnel que possible.</p>

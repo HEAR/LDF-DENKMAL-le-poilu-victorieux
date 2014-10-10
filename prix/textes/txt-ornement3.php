@@ -1,0 +1,2 @@
+<h3>Ornement</h3><span id="ligne4"></span><span>2100F</span>
+<p>En ornant votre monument d'une m&eacute;daille et d'une palme, vous le marquez du souvenir des disparus. La palme, quant &agrave; elle, leur attribue la victoire et, pour les plus chr&eacute;tiens, les &eacute;l&egrave;ves au rang de martyr. </p>

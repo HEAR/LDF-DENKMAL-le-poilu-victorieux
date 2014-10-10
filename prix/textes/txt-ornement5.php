@@ -1,0 +1,2 @@
+<h3>Ornement</h3><span id="ligne4"></span><span>2100F</span>
+<p>En décorant votre monument d'armoiries militaires française, vous soulignez ce pourquoi ces soldats ce sont battus, la victoire de la France.</p>

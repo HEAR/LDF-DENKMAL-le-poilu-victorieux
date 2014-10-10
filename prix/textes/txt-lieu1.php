@@ -1,0 +1,2 @@
+<h3>Pr&egrave;s de l'école</h3>
+<p>Vous avez choisi de placer votre monument pr&egrave;s de l'&eacute;cole, il pourra ainsi apprendre aux g&eacute;n&eacute;rations futures l'horreur que fut la guerre, la perte immense, le courage et le nom des h&eacute;ros qui se sont battu pour leur liberté.</p>
